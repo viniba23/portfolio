@@ -1547,33 +1547,36 @@ i.fa.fa-envelope-o {
 }
 .marquee-container {
     position: fixed;
-    top: 60px; /* Adjust this value based on the height of your header */
+    top: 60px; /* Adjust based on header height */
     left: 0;
     width: 100%;
     z-index: 999; /* Ensure it stays below the header but above other content */
-    background-color: rgba(144, 146, 153, 0.94); /* Semi-transparent background */
+	background-color: rgba(144, 146, 153, 0); /* Fully transparent */
     padding: 10px 0; /* Add padding for better visibility */
-	font-family: "Times New Roman", Times, serif;
-	font-size: 20px;
-	color: #ffffff;
-	/* padding: 10px 0; */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	width: 100%;
-	border-style: solid;
-	border-color: #000;
-	margin: 0 auto;
-	letter-spacing: 2px; /* Letter spacing */
-	font-weight: bold; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    color: #f1e9e9; /* White text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    /* border: 2px solid rgba(255, 255, 255, 0.2);  */
+    margin: 0 auto;
+    letter-spacing: 2px; /* Letter spacing */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-  
 .marquee-container:hover {
-	background-color: rgba(32, 178, 170, 1); /* Hover background color */
-	color: #fff; /* Hover text color */
-	cursor: pointer; /* Change cursor on hover */
-  }
+    background-color: rgba(32, 178, 170, 0.9); /* Hover background color (90% opacity) */
+    cursor: pointer; /* Change cursor on hover */
+}
+.marquee-container marquee a {
+    color: #630707; /* Link color */
+    text-decoration: underline; /* Underline links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
 
-
+.marquee-container marquee a:hover {
+    color: #ff0000; /* Change link color on hover */
+}
 
 
 
