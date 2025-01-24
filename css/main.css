@@ -1547,21 +1547,21 @@ i.fa.fa-envelope-o {
 }
 .marquee-container {
     position: fixed;
-    top: 60px; /* Adjust based on header height */
+    top: 60px; 
     left: 0;
     width: 100%;
-    z-index: 999; /* Ensure it stays below the header but above other content */
-	background-color: rgba(144, 146, 153, 0); /* Fully transparent */
-    padding: 10px 0; /* Add padding for better visibility */
+    z-index: 999; 
+	background-color: rgba(144, 146, 153, 0); 
+    padding: 10px 0; 
     font-family: "Times New Roman", Times, serif;
     font-size: 25px;
-    color: #E1BEE7; /* White text color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    color: #E1BEE7; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     /* border: 2px solid rgba(255, 255, 255, 0.2);  */
     margin: 0 auto;
-    letter-spacing: 2px; /* Letter spacing */
+    letter-spacing: 2px; 
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .marquee-container:hover {
